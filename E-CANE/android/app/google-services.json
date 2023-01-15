@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "864364406378",
+    "firebase_url": "https://kissan-mitra-79127.firebaseio.com",
+    "project_id": "kissan-mitra-79127",
+    "storage_bucket": "kissan-mitra-79127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864364406378:android:e173abd6248fe4ce648c13",
+        "android_client_info": {
+          "package_name": "in.skyras.kissanmitra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864364406378-20mn5d6dkbpbo3a8gf7d0kro7mv4phk9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgkgUgy7KaFZ75L7GM6w4X4QKJSqUFWiI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864364406378-20mn5d6dkbpbo3a8gf7d0kro7mv4phk9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

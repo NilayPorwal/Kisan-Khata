@@ -1,0 +1,1533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* Cane_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Cane_AppTests.m */; };
+		053F3EB1139749E28F943F4F /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A7FF8A2720444EB9CE3A164 /* Entypo.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		160AF3AE4D704B158878D738 /* libPods-E-CANE-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64A2DC3A4124FC32E4B994AC /* libPods-E-CANE-tvOSTests.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* Cane_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* Cane_AppTests.m */; };
+		370DF31AC531457DB41E893D /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8376C8A1ED0642A0AA53241F /* FontAwesome5_Solid.ttf */; };
+		3FBAAA6BD137485299BD1E96 /* Roboto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5E57A171E5FF4E768C1C167E /* Roboto.ttf */; };
+		4A32DD64C9DC47B5BB9A2D96 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F2A1C0554D584750B2976A22 /* Foundation.ttf */; };
+		4C4D6C9553A36EC7F511A24C /* libPods-E-CANE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D617B216CB1770D2560E969B /* libPods-E-CANE.a */; };
+		5B25289FC00046B1921B8B62 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2854529AAF7B4E05B0B5FC59 /* FontAwesome5_Brands.ttf */; };
+		6818DAC1A1784AC2A4E712EF /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 51567E4F37DA4B53B4BE8C0A /* SimpleLineIcons.ttf */; };
+		7D24001A77B84743A3154163 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DC6F8D1E239A47569B0EEFE5 /* FontAwesome5_Regular.ttf */; };
+		8B0C8C301DC740C09709FFA0 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5DA62421DCDC46A4B264D168 /* Ionicons.ttf */; };
+		9C7374B450304FA8A0E80E84 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A25BAB4855EE4BEEA9BBA614 /* Zocial.ttf */; };
+		9F79EF572347616A00748BE4 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF562347616A00748BE4 /* File.swift */; };
+		9F79EFA92347629800748BE4 /* IndexValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF672347629800748BE4 /* IndexValueFormatter.swift */; };
+		9F79EFAA2347629800748BE4 /* RNCombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF692347629800748BE4 /* RNCombinedChartView.swift */; };
+		9F79EFAB2347629800748BE4 /* RNCombinedChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6A2347629800748BE4 /* RNCombinedChartManager.swift */; };
+		9F79EFAC2347629800748BE4 /* RNCombinedChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6B2347629800748BE4 /* RNCombinedChartManagerBridge.m */; };
+		9F79EFAD2347629800748BE4 /* CombinedDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6C2347629800748BE4 /* CombinedDataExtract.swift */; };
+		9F79EFAE2347629800748BE4 /* RNYAxisChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6D2347629800748BE4 /* RNYAxisChartViewBase.swift */; };
+		9F79EFAF2347629800748BE4 /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6E2347629800748BE4 /* BalloonMarker.swift */; };
+		9F79EFB02347629800748BE4 /* RNBarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF6F2347629800748BE4 /* RNBarLineChartViewBase.swift */; };
+		9F79EFB12347629800748BE4 /* ChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF712347629800748BE4 /* ChartDateFormatter.swift */; };
+		9F79EFB22347629800748BE4 /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF722347629800748BE4 /* LargeValueFormatter.swift */; };
+		9F79EFB32347629800748BE4 /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF742347629800748BE4 /* FontUtils.swift */; };
+		9F79EFB42347629800748BE4 /* EntryToDictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF752347629800748BE4 /* EntryToDictionaryUtils.swift */; };
+		9F79EFB52347629800748BE4 /* ChartDataSetConfigUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF762347629800748BE4 /* ChartDataSetConfigUtils.swift */; };
+		9F79EFB62347629800748BE4 /* HighlightUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF772347629800748BE4 /* HighlightUtils.swift */; };
+		9F79EFB72347629800748BE4 /* BridgeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF782347629800748BE4 /* BridgeUtils.swift */; };
+		9F79EFB82347629800748BE4 /* RNBubbleChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF7B2347629800748BE4 /* RNBubbleChartManager.swift */; };
+		9F79EFB92347629800748BE4 /* RNBubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF7C2347629800748BE4 /* RNBubbleChartView.swift */; };
+		9F79EFBA2347629800748BE4 /* BubbleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF7D2347629800748BE4 /* BubbleDataExtract.swift */; };
+		9F79EFBB2347629800748BE4 /* RNBubbleChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF7E2347629800748BE4 /* RNBubbleChartManagerBridge.m */; };
+		9F79EFBC2347629800748BE4 /* CustomChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF7F2347629800748BE4 /* CustomChartDateFormatter.swift */; };
+		9F79EFBD2347629800748BE4 /* RNBarLineChartBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF802347629800748BE4 /* RNBarLineChartBaseManager.swift */; };
+		9F79EFBE2347629800748BE4 /* RNPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF832347629800748BE4 /* RNPieChartView.swift */; };
+		9F79EFBF2347629800748BE4 /* RNPieChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF842347629800748BE4 /* RNPieChartManagerBridge.m */; };
+		9F79EFC02347629800748BE4 /* PieDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF852347629800748BE4 /* PieDataExtract.swift */; };
+		9F79EFC12347629800748BE4 /* RNPieChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF862347629800748BE4 /* RNPieChartManager.swift */; };
+		9F79EFC22347629800748BE4 /* RNScatterChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF882347629800748BE4 /* RNScatterChartManager.swift */; };
+		9F79EFC32347629800748BE4 /* RNScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF892347629800748BE4 /* RNScatterChartView.swift */; };
+		9F79EFC42347629800748BE4 /* RNScatterChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF8A2347629800748BE4 /* RNScatterChartManagerBridge.m */; };
+		9F79EFC52347629800748BE4 /* ScatterDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF8B2347629800748BE4 /* ScatterDataExtract.swift */; };
+		9F79EFC62347629800748BE4 /* RNLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF8D2347629800748BE4 /* RNLineChartView.swift */; };
+		9F79EFC72347629800748BE4 /* RNLineChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF8E2347629800748BE4 /* RNLineChartManager.swift */; };
+		9F79EFC82347629800748BE4 /* RNLineChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF8F2347629800748BE4 /* RNLineChartManagerBridge.m */; };
+		9F79EFC92347629800748BE4 /* LineDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF902347629800748BE4 /* LineDataExtract.swift */; };
+		9F79EFCA2347629800748BE4 /* CandleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF922347629800748BE4 /* CandleDataExtract.swift */; };
+		9F79EFCB2347629800748BE4 /* RNCandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF932347629800748BE4 /* RNCandleStickChartView.swift */; };
+		9F79EFCC2347629800748BE4 /* RNCandleStickChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF942347629800748BE4 /* RNCandleStickChartManager.swift */; };
+		9F79EFCD2347629800748BE4 /* RNCandleStickChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF952347629800748BE4 /* RNCandleStickChartManagerBridge.m */; };
+		9F79EFCE2347629800748BE4 /* RNBarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF992347629800748BE4 /* RNBarChartViewBase.swift */; };
+		9F79EFCF2347629800748BE4 /* BarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9A2347629800748BE4 /* BarDataExtract.swift */; };
+		9F79EFD02347629800748BE4 /* RNHorizontalBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9B2347629800748BE4 /* RNHorizontalBarChartManager.swift */; };
+		9F79EFD12347629800748BE4 /* RNBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9C2347629800748BE4 /* RNBarChartManager.swift */; };
+		9F79EFD22347629800748BE4 /* RNBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9D2347629800748BE4 /* RNBarChartManagerBridge.m */; };
+		9F79EFD32347629800748BE4 /* RNBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9E2347629800748BE4 /* RNBarChartView.swift */; };
+		9F79EFD42347629800748BE4 /* RNHorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EF9F2347629800748BE4 /* RNHorizontalBarChartView.swift */; };
+		9F79EFD52347629800748BE4 /* RNHorizontalBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA02347629800748BE4 /* RNHorizontalBarChartManagerBridge.m */; };
+		9F79EFD62347629800748BE4 /* RadarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA22347629800748BE4 /* RadarDataExtract.swift */; };
+		9F79EFD72347629800748BE4 /* RNRadarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA32347629800748BE4 /* RNRadarChartManagerBridge.m */; };
+		9F79EFD82347629800748BE4 /* RNRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA42347629800748BE4 /* RNRadarChartView.swift */; };
+		9F79EFD92347629800748BE4 /* RNRadarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA52347629800748BE4 /* RNRadarChartManager.swift */; };
+		9F79EFDA2347629800748BE4 /* RNChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA62347629800748BE4 /* RNChartViewBase.swift */; };
+		9F79EFDB2347629800748BE4 /* ChartGroupHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA72347629800748BE4 /* ChartGroupHolder.swift */; };
+		9F79EFDC2347629800748BE4 /* DataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79EFA82347629800748BE4 /* DataExtract.swift */; };
+		9F79F01C23478AE900748BE4 /* Digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FADF4EF2341FD8900FF3CE9 /* Digital-7.ttf */; };
+		9F938A8D23C0536B004EA53C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F938A8C23C0536B004EA53C /* Images.xcassets */; };
+		9FADF4F12341FD8900FF3CE9 /* Lato-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FADF4ED2341FD8900FF3CE9 /* Lato-Black.ttf */; };
+		9FADF4F22341FD8900FF3CE9 /* Lato-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FADF4EE2341FD8900FF3CE9 /* Lato-Semibold.ttf */; };
+		9FDDCB2C2356F73700C3B164 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDDCB2B2356F73700C3B164 /* UserNotifications.framework */; };
+		9FDDCB3923570A1200C3B164 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FDDCB3823570A1100C3B164 /* GoogleService-Info.plist */; };
+		9FEDE176238FA4050070E32D /* libRNFirebase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FDDCB2A2356F6E400C3B164 /* libRNFirebase.a */; };
+		A11EE91DC8AFE3A871B9F18B /* libPods-E-CANETests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF8BA5B6247761BA02BBB7D2 /* libPods-E-CANETests.a */; };
+		BE5EF4C353724AD9A25943EE /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9AED3947F2784EA9A4692AAB /* Octicons.ttf */; };
+		D52736C6BB7B4EC3849BCBD2 /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FDB87BE0CB6B448C8AD78167 /* AntDesign.ttf */; };
+		D6A4AC9E5D0441DFB7D78CDD /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6EDFBCE5C85D4EE28A97C6B7 /* MaterialCommunityIcons.ttf */; };
+		D8A1FFC336084E069165FE6B /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B25CA13388BC4B73AA86BD0C /* FontAwesome.ttf */; };
+		DE46AE6AE401418BACABC340 /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43F4F524A7B2454880458F63 /* Feather.ttf */; };
+		DF0AA4298993414A95F2DEE0 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 21F1B5DE2AB5495A966EDE28 /* MaterialIcons.ttf */; };
+		E0B0BDE36221483590F70CB2 /* Roboto_medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DF206AE98DA4857A23ACE20 /* Roboto_medium.ttf */; };
+		E2D764FBED4F456193606837 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 17DAD260F8724B22BA98EAC1 /* EvilIcons.ttf */; };
+		E413280BF20B408C4DA47BF2 /* libPods-E-CANE-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E88CABA01C160D31D94041B3 /* libPods-E-CANE-tvOS.a */; };
+		E896FFCFB4EC46349B6AB08E /* rubicon-icon-font.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EE0257AF1D147E7892C568C /* rubicon-icon-font.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = Cane_App;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "Cane_App-tvOS";
+		};
+		9FDDCB292356F6E400C3B164 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9FDDCB252356F6E400C3B164 /* RNFirebase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNFirebase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* E-CANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-CANETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* Cane_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cane_AppTests.m; sourceTree = "<group>"; };
+		09749917EBE886FD2C614850 /* Pods-E-CANE.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE.debug.xcconfig"; path = "Target Support Files/Pods-E-CANE/Pods-E-CANE.debug.xcconfig"; sourceTree = "<group>"; };
+		0A881AD6C9007DD26829CB79 /* Pods-Cane_App-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Cane_App-tvOSTests/Pods-Cane_App-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		0BFCD737B356C6DE549753D2 /* Pods-Cane_App-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-Cane_App-tvOS/Pods-Cane_App-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0EE0257AF1D147E7892C568C /* rubicon-icon-font.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "rubicon-icon-font.ttf"; path = "../node_modules/native-base/Fonts/rubicon-icon-font.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* E-CANE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-CANE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Cane_App/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Cane_App/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Cane_App/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Cane_App/main.m; sourceTree = "<group>"; };
+		17DAD260F8724B22BA98EAC1 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/native-base/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		1DF206AE98DA4857A23ACE20 /* Roboto_medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto_medium.ttf; path = "../node_modules/native-base/Fonts/Roboto_medium.ttf"; sourceTree = "<group>"; };
+		21F1B5DE2AB5495A966EDE28 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		24709C5731040CB179D6B63B /* Pods-E-CANE-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-E-CANE-tvOS/Pods-E-CANE-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		2854529AAF7B4E05B0B5FC59 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		2A7FF8A2720444EB9CE3A164 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/native-base/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* E-CANE-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-CANE-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* E-CANE-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-CANE-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36B1978AC98CD04C4FD65A55 /* Pods-E-CANETests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANETests.debug.xcconfig"; path = "Target Support Files/Pods-E-CANETests/Pods-E-CANETests.debug.xcconfig"; sourceTree = "<group>"; };
+		43A88A0D8FEF22C5844EBC61 /* Pods-E-CANE-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-E-CANE-tvOSTests/Pods-E-CANE-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43F4F524A7B2454880458F63 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/native-base/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		4D6330BE952C9CDC437F6425 /* Pods-Cane_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Cane_AppTests/Pods-Cane_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		51567E4F37DA4B53B4BE8C0A /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/native-base/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		5DA62421DCDC46A4B264D168 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/native-base/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		5E57A171E5FF4E768C1C167E /* Roboto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Roboto.ttf; path = "../node_modules/native-base/Fonts/Roboto.ttf"; sourceTree = "<group>"; };
+		64A2DC3A4124FC32E4B994AC /* libPods-E-CANE-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E-CANE-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EDFBCE5C85D4EE28A97C6B7 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/native-base/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		74D5368B364FBDC37D04621C /* Pods-Cane_App-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Cane_App-tvOSTests/Pods-Cane_App-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B878864E2441A1142D57E00 /* Pods-E-CANE-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE-tvOS.release.xcconfig"; path = "Target Support Files/Pods-E-CANE-tvOS/Pods-E-CANE-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8200AEC27BC12AD650365F30 /* Pods-Cane_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App.release.xcconfig"; path = "Target Support Files/Pods-Cane_App/Pods-Cane_App.release.xcconfig"; sourceTree = "<group>"; };
+		8376C8A1ED0642A0AA53241F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		9AED3947F2784EA9A4692AAB /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/native-base/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		9F79EF552347616900748BE4 /* E-CANE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "E-CANE-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F79EF562347616A00748BE4 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		9F79EF672347629800748BE4 /* IndexValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexValueFormatter.swift; sourceTree = "<group>"; };
+		9F79EF692347629800748BE4 /* RNCombinedChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartView.swift; sourceTree = "<group>"; };
+		9F79EF6A2347629800748BE4 /* RNCombinedChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartManager.swift; sourceTree = "<group>"; };
+		9F79EF6B2347629800748BE4 /* RNCombinedChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCombinedChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF6C2347629800748BE4 /* CombinedDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF6D2347629800748BE4 /* RNYAxisChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNYAxisChartViewBase.swift; sourceTree = "<group>"; };
+		9F79EF6E2347629800748BE4 /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		9F79EF6F2347629800748BE4 /* RNBarLineChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartViewBase.swift; sourceTree = "<group>"; };
+		9F79EF712347629800748BE4 /* ChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDateFormatter.swift; sourceTree = "<group>"; };
+		9F79EF722347629800748BE4 /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		9F79EF742347629800748BE4 /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
+		9F79EF752347629800748BE4 /* EntryToDictionaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryToDictionaryUtils.swift; sourceTree = "<group>"; };
+		9F79EF762347629800748BE4 /* ChartDataSetConfigUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDataSetConfigUtils.swift; sourceTree = "<group>"; };
+		9F79EF772347629800748BE4 /* HighlightUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightUtils.swift; sourceTree = "<group>"; };
+		9F79EF782347629800748BE4 /* BridgeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeUtils.swift; sourceTree = "<group>"; };
+		9F79EF792347629800748BE4 /* RNChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNChartManagerBridge.h; sourceTree = "<group>"; };
+		9F79EF7B2347629800748BE4 /* RNBubbleChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartManager.swift; sourceTree = "<group>"; };
+		9F79EF7C2347629800748BE4 /* RNBubbleChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartView.swift; sourceTree = "<group>"; };
+		9F79EF7D2347629800748BE4 /* BubbleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF7E2347629800748BE4 /* RNBubbleChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBubbleChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF7F2347629800748BE4 /* CustomChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChartDateFormatter.swift; sourceTree = "<group>"; };
+		9F79EF802347629800748BE4 /* RNBarLineChartBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartBaseManager.swift; sourceTree = "<group>"; };
+		9F79EF812347629800748BE4 /* RNYAxisChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYAxisChartManagerBridge.h; sourceTree = "<group>"; };
+		9F79EF832347629800748BE4 /* RNPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartView.swift; sourceTree = "<group>"; };
+		9F79EF842347629800748BE4 /* RNPieChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPieChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF852347629800748BE4 /* PieDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF862347629800748BE4 /* RNPieChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartManager.swift; sourceTree = "<group>"; };
+		9F79EF882347629800748BE4 /* RNScatterChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartManager.swift; sourceTree = "<group>"; };
+		9F79EF892347629800748BE4 /* RNScatterChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartView.swift; sourceTree = "<group>"; };
+		9F79EF8A2347629800748BE4 /* RNScatterChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNScatterChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF8B2347629800748BE4 /* ScatterDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF8D2347629800748BE4 /* RNLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartView.swift; sourceTree = "<group>"; };
+		9F79EF8E2347629800748BE4 /* RNLineChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartManager.swift; sourceTree = "<group>"; };
+		9F79EF8F2347629800748BE4 /* RNLineChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF902347629800748BE4 /* LineDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF922347629800748BE4 /* CandleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF932347629800748BE4 /* RNCandleStickChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartView.swift; sourceTree = "<group>"; };
+		9F79EF942347629800748BE4 /* RNCandleStickChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartManager.swift; sourceTree = "<group>"; };
+		9F79EF952347629800748BE4 /* RNCandleStickChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCandleStickChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF962347629800748BE4 /* RNBarLineChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarLineChartManagerBridge.h; sourceTree = "<group>"; };
+		9F79EF972347629800748BE4 /* RNCharts-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		9F79EF992347629800748BE4 /* RNBarChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartViewBase.swift; sourceTree = "<group>"; };
+		9F79EF9A2347629800748BE4 /* BarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDataExtract.swift; sourceTree = "<group>"; };
+		9F79EF9B2347629800748BE4 /* RNHorizontalBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartManager.swift; sourceTree = "<group>"; };
+		9F79EF9C2347629800748BE4 /* RNBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartManager.swift; sourceTree = "<group>"; };
+		9F79EF9D2347629800748BE4 /* RNBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EF9E2347629800748BE4 /* RNBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartView.swift; sourceTree = "<group>"; };
+		9F79EF9F2347629800748BE4 /* RNHorizontalBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartView.swift; sourceTree = "<group>"; };
+		9F79EFA02347629800748BE4 /* RNHorizontalBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHorizontalBarChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EFA22347629800748BE4 /* RadarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarDataExtract.swift; sourceTree = "<group>"; };
+		9F79EFA32347629800748BE4 /* RNRadarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRadarChartManagerBridge.m; sourceTree = "<group>"; };
+		9F79EFA42347629800748BE4 /* RNRadarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartView.swift; sourceTree = "<group>"; };
+		9F79EFA52347629800748BE4 /* RNRadarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartManager.swift; sourceTree = "<group>"; };
+		9F79EFA62347629800748BE4 /* RNChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNChartViewBase.swift; sourceTree = "<group>"; };
+		9F79EFA72347629800748BE4 /* ChartGroupHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGroupHolder.swift; sourceTree = "<group>"; };
+		9F79EFA82347629800748BE4 /* DataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtract.swift; sourceTree = "<group>"; };
+		9F79F01423476BB200748BE4 /* libCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F79F01623476BC300748BE4 /* libyoga.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libyoga.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F79F01823476E0600748BE4 /* libSwiftyJSON.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSwiftyJSON.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F79F01A23476E1400748BE4 /* libRNCharts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNCharts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F938A8C23C0536B004EA53C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Cane_App/Images.xcassets; sourceTree = "<group>"; };
+		9FADF4ED2341FD8900FF3CE9 /* Lato-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Black.ttf"; sourceTree = "<group>"; };
+		9FADF4EE2341FD8900FF3CE9 /* Lato-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Semibold.ttf"; sourceTree = "<group>"; };
+		9FADF4EF2341FD8900FF3CE9 /* Digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Digital-7.ttf"; sourceTree = "<group>"; };
+		9FDDCB242356F5D500C3B164 /* E-CANE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "E-CANE.entitlements"; sourceTree = "<group>"; };
+		9FDDCB252356F6E400C3B164 /* RNFirebase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFirebase.xcodeproj; path = "../node_modules/react-native-firebase/ios/RNFirebase.xcodeproj"; sourceTree = "<group>"; };
+		9FDDCB2B2356F73700C3B164 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9FDDCB3823570A1100C3B164 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Cane_App/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A25BAB4855EE4BEEA9BBA614 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/native-base/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		B1A5CDB59B74CA164723829A /* Pods-E-CANETests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANETests.release.xcconfig"; path = "Target Support Files/Pods-E-CANETests/Pods-E-CANETests.release.xcconfig"; sourceTree = "<group>"; };
+		B25CA13388BC4B73AA86BD0C /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/native-base/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		C8DF3E5B84A8C7F49BF7D0EE /* Pods-E-CANE.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE.release.xcconfig"; path = "Target Support Files/Pods-E-CANE/Pods-E-CANE.release.xcconfig"; sourceTree = "<group>"; };
+		C9839CBEE3FB4851DE00B8DD /* Pods-Cane_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Cane_AppTests/Pods-Cane_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D617B216CB1770D2560E969B /* libPods-E-CANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E-CANE.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CDB51FEDBF67E1E94B5A2C /* libPods-Cane_App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Cane_App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC6F8D1E239A47569B0EEFE5 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/native-base/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		E88CABA01C160D31D94041B3 /* libPods-E-CANE-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E-CANE-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EE81BCC35E218C187776594B /* Pods-E-CANE-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-E-CANE-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-E-CANE-tvOSTests/Pods-E-CANE-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		EEE9015E9DE4E14A850A56C1 /* Pods-Cane_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App.debug.xcconfig"; path = "Target Support Files/Pods-Cane_App/Pods-Cane_App.debug.xcconfig"; sourceTree = "<group>"; };
+		EF8BA5B6247761BA02BBB7D2 /* libPods-E-CANETests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-E-CANETests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A1C0554D584750B2976A22 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/native-base/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		F63042B1748183357EC8EA11 /* Pods-Cane_App-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cane_App-tvOS.release.xcconfig"; path = "Target Support Files/Pods-Cane_App-tvOS/Pods-Cane_App-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		FDB87BE0CB6B448C8AD78167 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/native-base/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A11EE91DC8AFE3A871B9F18B /* libPods-E-CANETests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FEDE176238FA4050070E32D /* libRNFirebase.a in Frameworks */,
+				9FDDCB2C2356F73700C3B164 /* UserNotifications.framework in Frameworks */,
+				4C4D6C9553A36EC7F511A24C /* libPods-E-CANE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E413280BF20B408C4DA47BF2 /* libPods-E-CANE-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				160AF3AE4D704B158878D738 /* libPods-E-CANE-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* Cane_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* Cane_AppTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = Cane_AppTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* Cane_App */ = {
+			isa = PBXGroup;
+			children = (
+				9F938A8C23C0536B004EA53C /* Images.xcassets */,
+				9FDDCB3823570A1100C3B164 /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = Cane_App;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDCB2B2356F73700C3B164 /* UserNotifications.framework */,
+				9F79F01A23476E1400748BE4 /* libRNCharts.a */,
+				9F79F01823476E0600748BE4 /* libSwiftyJSON.a */,
+				9F79F01623476BC300748BE4 /* libyoga.a */,
+				9F79F01423476BB200748BE4 /* libCharts.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				D6CDB51FEDBF67E1E94B5A2C /* libPods-Cane_App.a */,
+				D617B216CB1770D2560E969B /* libPods-E-CANE.a */,
+				E88CABA01C160D31D94041B3 /* libPods-E-CANE-tvOS.a */,
+				64A2DC3A4124FC32E4B994AC /* libPods-E-CANE-tvOSTests.a */,
+				EF8BA5B6247761BA02BBB7D2 /* libPods-E-CANETests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDCB252356F6E400C3B164 /* RNFirebase.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				9FDDCB242356F5D500C3B164 /* E-CANE.entitlements */,
+				9F79EF562347616A00748BE4 /* File.swift */,
+				9F79EF552347616900748BE4 /* E-CANE-Bridging-Header.h */,
+				9FADF4ED2341FD8900FF3CE9 /* Lato-Black.ttf */,
+				9FADF4EF2341FD8900FF3CE9 /* Digital-7.ttf */,
+				9FADF4EE2341FD8900FF3CE9 /* Lato-Semibold.ttf */,
+				9F79EF662347629800748BE4 /* ReactNativeCharts */,
+				13B07FAE1A68108700A75B9A /* Cane_App */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* Cane_AppTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				947B63AF538399315DA0B855 /* Pods */,
+				91995BBBCFC2463FBC074D88 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* E-CANE.app */,
+				00E356EE1AD99517003FC87E /* E-CANETests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* E-CANE-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* E-CANE-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91995BBBCFC2463FBC074D88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDB87BE0CB6B448C8AD78167 /* AntDesign.ttf */,
+				2A7FF8A2720444EB9CE3A164 /* Entypo.ttf */,
+				17DAD260F8724B22BA98EAC1 /* EvilIcons.ttf */,
+				43F4F524A7B2454880458F63 /* Feather.ttf */,
+				B25CA13388BC4B73AA86BD0C /* FontAwesome.ttf */,
+				2854529AAF7B4E05B0B5FC59 /* FontAwesome5_Brands.ttf */,
+				DC6F8D1E239A47569B0EEFE5 /* FontAwesome5_Regular.ttf */,
+				8376C8A1ED0642A0AA53241F /* FontAwesome5_Solid.ttf */,
+				F2A1C0554D584750B2976A22 /* Foundation.ttf */,
+				5DA62421DCDC46A4B264D168 /* Ionicons.ttf */,
+				6EDFBCE5C85D4EE28A97C6B7 /* MaterialCommunityIcons.ttf */,
+				21F1B5DE2AB5495A966EDE28 /* MaterialIcons.ttf */,
+				9AED3947F2784EA9A4692AAB /* Octicons.ttf */,
+				1DF206AE98DA4857A23ACE20 /* Roboto_medium.ttf */,
+				5E57A171E5FF4E768C1C167E /* Roboto.ttf */,
+				0EE0257AF1D147E7892C568C /* rubicon-icon-font.ttf */,
+				51567E4F37DA4B53B4BE8C0A /* SimpleLineIcons.ttf */,
+				A25BAB4855EE4BEEA9BBA614 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		947B63AF538399315DA0B855 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEE9015E9DE4E14A850A56C1 /* Pods-Cane_App.debug.xcconfig */,
+				8200AEC27BC12AD650365F30 /* Pods-Cane_App.release.xcconfig */,
+				0BFCD737B356C6DE549753D2 /* Pods-Cane_App-tvOS.debug.xcconfig */,
+				F63042B1748183357EC8EA11 /* Pods-Cane_App-tvOS.release.xcconfig */,
+				74D5368B364FBDC37D04621C /* Pods-Cane_App-tvOSTests.debug.xcconfig */,
+				0A881AD6C9007DD26829CB79 /* Pods-Cane_App-tvOSTests.release.xcconfig */,
+				C9839CBEE3FB4851DE00B8DD /* Pods-Cane_AppTests.debug.xcconfig */,
+				4D6330BE952C9CDC437F6425 /* Pods-Cane_AppTests.release.xcconfig */,
+				09749917EBE886FD2C614850 /* Pods-E-CANE.debug.xcconfig */,
+				C8DF3E5B84A8C7F49BF7D0EE /* Pods-E-CANE.release.xcconfig */,
+				24709C5731040CB179D6B63B /* Pods-E-CANE-tvOS.debug.xcconfig */,
+				7B878864E2441A1142D57E00 /* Pods-E-CANE-tvOS.release.xcconfig */,
+				43A88A0D8FEF22C5844EBC61 /* Pods-E-CANE-tvOSTests.debug.xcconfig */,
+				EE81BCC35E218C187776594B /* Pods-E-CANE-tvOSTests.release.xcconfig */,
+				36B1978AC98CD04C4FD65A55 /* Pods-E-CANETests.debug.xcconfig */,
+				B1A5CDB59B74CA164723829A /* Pods-E-CANETests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9F79EF662347629800748BE4 /* ReactNativeCharts */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF672347629800748BE4 /* IndexValueFormatter.swift */,
+				9F79EF682347629800748BE4 /* combine */,
+				9F79EF6D2347629800748BE4 /* RNYAxisChartViewBase.swift */,
+				9F79EF6E2347629800748BE4 /* BalloonMarker.swift */,
+				9F79EF6F2347629800748BE4 /* RNBarLineChartViewBase.swift */,
+				9F79EF702347629800748BE4 /* formatters */,
+				9F79EF732347629800748BE4 /* utils */,
+				9F79EF792347629800748BE4 /* RNChartManagerBridge.h */,
+				9F79EF7A2347629800748BE4 /* bubble */,
+				9F79EF7F2347629800748BE4 /* CustomChartDateFormatter.swift */,
+				9F79EF802347629800748BE4 /* RNBarLineChartBaseManager.swift */,
+				9F79EF812347629800748BE4 /* RNYAxisChartManagerBridge.h */,
+				9F79EF822347629800748BE4 /* pie */,
+				9F79EF872347629800748BE4 /* scatter */,
+				9F79EF8C2347629800748BE4 /* line */,
+				9F79EF912347629800748BE4 /* candlestick */,
+				9F79EF962347629800748BE4 /* RNBarLineChartManagerBridge.h */,
+				9F79EF972347629800748BE4 /* RNCharts-Bridging-Header.h */,
+				9F79EF982347629800748BE4 /* bar */,
+				9F79EFA12347629800748BE4 /* radar */,
+				9F79EFA62347629800748BE4 /* RNChartViewBase.swift */,
+				9F79EFA72347629800748BE4 /* ChartGroupHolder.swift */,
+				9F79EFA82347629800748BE4 /* DataExtract.swift */,
+			);
+			path = ReactNativeCharts;
+			sourceTree = "<group>";
+		};
+		9F79EF682347629800748BE4 /* combine */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF692347629800748BE4 /* RNCombinedChartView.swift */,
+				9F79EF6A2347629800748BE4 /* RNCombinedChartManager.swift */,
+				9F79EF6B2347629800748BE4 /* RNCombinedChartManagerBridge.m */,
+				9F79EF6C2347629800748BE4 /* CombinedDataExtract.swift */,
+			);
+			path = combine;
+			sourceTree = "<group>";
+		};
+		9F79EF702347629800748BE4 /* formatters */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF712347629800748BE4 /* ChartDateFormatter.swift */,
+				9F79EF722347629800748BE4 /* LargeValueFormatter.swift */,
+			);
+			path = formatters;
+			sourceTree = "<group>";
+		};
+		9F79EF732347629800748BE4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF742347629800748BE4 /* FontUtils.swift */,
+				9F79EF752347629800748BE4 /* EntryToDictionaryUtils.swift */,
+				9F79EF762347629800748BE4 /* ChartDataSetConfigUtils.swift */,
+				9F79EF772347629800748BE4 /* HighlightUtils.swift */,
+				9F79EF782347629800748BE4 /* BridgeUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		9F79EF7A2347629800748BE4 /* bubble */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF7B2347629800748BE4 /* RNBubbleChartManager.swift */,
+				9F79EF7C2347629800748BE4 /* RNBubbleChartView.swift */,
+				9F79EF7D2347629800748BE4 /* BubbleDataExtract.swift */,
+				9F79EF7E2347629800748BE4 /* RNBubbleChartManagerBridge.m */,
+			);
+			path = bubble;
+			sourceTree = "<group>";
+		};
+		9F79EF822347629800748BE4 /* pie */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF832347629800748BE4 /* RNPieChartView.swift */,
+				9F79EF842347629800748BE4 /* RNPieChartManagerBridge.m */,
+				9F79EF852347629800748BE4 /* PieDataExtract.swift */,
+				9F79EF862347629800748BE4 /* RNPieChartManager.swift */,
+			);
+			path = pie;
+			sourceTree = "<group>";
+		};
+		9F79EF872347629800748BE4 /* scatter */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF882347629800748BE4 /* RNScatterChartManager.swift */,
+				9F79EF892347629800748BE4 /* RNScatterChartView.swift */,
+				9F79EF8A2347629800748BE4 /* RNScatterChartManagerBridge.m */,
+				9F79EF8B2347629800748BE4 /* ScatterDataExtract.swift */,
+			);
+			path = scatter;
+			sourceTree = "<group>";
+		};
+		9F79EF8C2347629800748BE4 /* line */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF8D2347629800748BE4 /* RNLineChartView.swift */,
+				9F79EF8E2347629800748BE4 /* RNLineChartManager.swift */,
+				9F79EF8F2347629800748BE4 /* RNLineChartManagerBridge.m */,
+				9F79EF902347629800748BE4 /* LineDataExtract.swift */,
+			);
+			path = line;
+			sourceTree = "<group>";
+		};
+		9F79EF912347629800748BE4 /* candlestick */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF922347629800748BE4 /* CandleDataExtract.swift */,
+				9F79EF932347629800748BE4 /* RNCandleStickChartView.swift */,
+				9F79EF942347629800748BE4 /* RNCandleStickChartManager.swift */,
+				9F79EF952347629800748BE4 /* RNCandleStickChartManagerBridge.m */,
+			);
+			path = candlestick;
+			sourceTree = "<group>";
+		};
+		9F79EF982347629800748BE4 /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EF992347629800748BE4 /* RNBarChartViewBase.swift */,
+				9F79EF9A2347629800748BE4 /* BarDataExtract.swift */,
+				9F79EF9B2347629800748BE4 /* RNHorizontalBarChartManager.swift */,
+				9F79EF9C2347629800748BE4 /* RNBarChartManager.swift */,
+				9F79EF9D2347629800748BE4 /* RNBarChartManagerBridge.m */,
+				9F79EF9E2347629800748BE4 /* RNBarChartView.swift */,
+				9F79EF9F2347629800748BE4 /* RNHorizontalBarChartView.swift */,
+				9F79EFA02347629800748BE4 /* RNHorizontalBarChartManagerBridge.m */,
+			);
+			path = bar;
+			sourceTree = "<group>";
+		};
+		9F79EFA12347629800748BE4 /* radar */ = {
+			isa = PBXGroup;
+			children = (
+				9F79EFA22347629800748BE4 /* RadarDataExtract.swift */,
+				9F79EFA32347629800748BE4 /* RNRadarChartManagerBridge.m */,
+				9F79EFA42347629800748BE4 /* RNRadarChartView.swift */,
+				9F79EFA52347629800748BE4 /* RNRadarChartManager.swift */,
+			);
+			path = radar;
+			sourceTree = "<group>";
+		};
+		9FDDCB262356F6E400C3B164 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FDDCB2A2356F6E400C3B164 /* libRNFirebase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* E-CANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "E-CANETests" */;
+			buildPhases = (
+				140F89DB1F9ED70A5BFA5AFD /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = "E-CANETests";
+			productName = Cane_AppTests;
+			productReference = 00E356EE1AD99517003FC87E /* E-CANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* E-CANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "E-CANE" */;
+			buildPhases = (
+				25A4E8EA238412B5E5EECC98 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-CANE";
+			productName = Cane_App;
+			productReference = 13B07F961A680F5B00A75B9A /* E-CANE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* E-CANE-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "E-CANE-tvOS" */;
+			buildPhases = (
+				5E52C1EAB75D94273DB91541 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-CANE-tvOS";
+			productName = "Cane_App-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* E-CANE-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* E-CANE-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "E-CANE-tvOSTests" */;
+			buildPhases = (
+				C1444EF3C41F522D5BA419F8 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "E-CANE-tvOSTests";
+			productName = "Cane_App-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* E-CANE-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = P4SHR739R7;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = P4SHR739R7;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "E-CANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9FDDCB262356F6E400C3B164 /* Products */;
+					ProjectRef = 9FDDCB252356F6E400C3B164 /* RNFirebase.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* E-CANE */,
+				00E356ED1AD99517003FC87E /* E-CANETests */,
+				2D02E47A1E0B4A5D006451C7 /* E-CANE-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* E-CANE-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9FDDCB2A2356F6E400C3B164 /* libRNFirebase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFirebase.a;
+			remoteRef = 9FDDCB292356F6E400C3B164 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F79F01C23478AE900748BE4 /* Digital-7.ttf in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				D52736C6BB7B4EC3849BCBD2 /* AntDesign.ttf in Resources */,
+				053F3EB1139749E28F943F4F /* Entypo.ttf in Resources */,
+				E2D764FBED4F456193606837 /* EvilIcons.ttf in Resources */,
+				DE46AE6AE401418BACABC340 /* Feather.ttf in Resources */,
+				D8A1FFC336084E069165FE6B /* FontAwesome.ttf in Resources */,
+				9FADF4F12341FD8900FF3CE9 /* Lato-Black.ttf in Resources */,
+				5B25289FC00046B1921B8B62 /* FontAwesome5_Brands.ttf in Resources */,
+				9F938A8D23C0536B004EA53C /* Images.xcassets in Resources */,
+				7D24001A77B84743A3154163 /* FontAwesome5_Regular.ttf in Resources */,
+				370DF31AC531457DB41E893D /* FontAwesome5_Solid.ttf in Resources */,
+				4A32DD64C9DC47B5BB9A2D96 /* Foundation.ttf in Resources */,
+				8B0C8C301DC740C09709FFA0 /* Ionicons.ttf in Resources */,
+				9FADF4F22341FD8900FF3CE9 /* Lato-Semibold.ttf in Resources */,
+				D6A4AC9E5D0441DFB7D78CDD /* MaterialCommunityIcons.ttf in Resources */,
+				DF0AA4298993414A95F2DEE0 /* MaterialIcons.ttf in Resources */,
+				9FDDCB3923570A1200C3B164 /* GoogleService-Info.plist in Resources */,
+				BE5EF4C353724AD9A25943EE /* Octicons.ttf in Resources */,
+				E0B0BDE36221483590F70CB2 /* Roboto_medium.ttf in Resources */,
+				3FBAAA6BD137485299BD1E96 /* Roboto.ttf in Resources */,
+				E896FFCFB4EC46349B6AB08E /* rubicon-icon-font.ttf in Resources */,
+				6818DAC1A1784AC2A4E712EF /* SimpleLineIcons.ttf in Resources */,
+				9C7374B450304FA8A0E80E84 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		140F89DB1F9ED70A5BFA5AFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-CANETests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		25A4E8EA238412B5E5EECC98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-CANE-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5E52C1EAB75D94273DB91541 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-CANE-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1444EF3C41F522D5BA419F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-E-CANE-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* Cane_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F79EFCC2347629800748BE4 /* RNCandleStickChartManager.swift in Sources */,
+				9F79EFC72347629800748BE4 /* RNLineChartManager.swift in Sources */,
+				9F79EFD42347629800748BE4 /* RNHorizontalBarChartView.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				9F79EFCF2347629800748BE4 /* BarDataExtract.swift in Sources */,
+				9F79EFC42347629800748BE4 /* RNScatterChartManagerBridge.m in Sources */,
+				9F79EFDB2347629800748BE4 /* ChartGroupHolder.swift in Sources */,
+				9F79EFAC2347629800748BE4 /* RNCombinedChartManagerBridge.m in Sources */,
+				9F79EFB32347629800748BE4 /* FontUtils.swift in Sources */,
+				9F79EFAD2347629800748BE4 /* CombinedDataExtract.swift in Sources */,
+				9F79EFB12347629800748BE4 /* ChartDateFormatter.swift in Sources */,
+				9F79EFAE2347629800748BE4 /* RNYAxisChartViewBase.swift in Sources */,
+				9F79EFB72347629800748BE4 /* BridgeUtils.swift in Sources */,
+				9F79EFD32347629800748BE4 /* RNBarChartView.swift in Sources */,
+				9F79EFAB2347629800748BE4 /* RNCombinedChartManager.swift in Sources */,
+				9F79EFB52347629800748BE4 /* ChartDataSetConfigUtils.swift in Sources */,
+				9F79EFD92347629800748BE4 /* RNRadarChartManager.swift in Sources */,
+				9F79EFB82347629800748BE4 /* RNBubbleChartManager.swift in Sources */,
+				9F79EFB22347629800748BE4 /* LargeValueFormatter.swift in Sources */,
+				9F79EFC92347629800748BE4 /* LineDataExtract.swift in Sources */,
+				9F79EFB92347629800748BE4 /* RNBubbleChartView.swift in Sources */,
+				9F79EFBF2347629800748BE4 /* RNPieChartManagerBridge.m in Sources */,
+				9F79EFA92347629800748BE4 /* IndexValueFormatter.swift in Sources */,
+				9F79EFD82347629800748BE4 /* RNRadarChartView.swift in Sources */,
+				9F79EF572347616A00748BE4 /* File.swift in Sources */,
+				9F79EFC02347629800748BE4 /* PieDataExtract.swift in Sources */,
+				9F79EFB42347629800748BE4 /* EntryToDictionaryUtils.swift in Sources */,
+				9F79EFBD2347629800748BE4 /* RNBarLineChartBaseManager.swift in Sources */,
+				9F79EFCB2347629800748BE4 /* RNCandleStickChartView.swift in Sources */,
+				9F79EFD72347629800748BE4 /* RNRadarChartManagerBridge.m in Sources */,
+				9F79EFD62347629800748BE4 /* RadarDataExtract.swift in Sources */,
+				9F79EFBE2347629800748BE4 /* RNPieChartView.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				9F79EFCD2347629800748BE4 /* RNCandleStickChartManagerBridge.m in Sources */,
+				9F79EFBA2347629800748BE4 /* BubbleDataExtract.swift in Sources */,
+				9F79EFDC2347629800748BE4 /* DataExtract.swift in Sources */,
+				9F79EFC22347629800748BE4 /* RNScatterChartManager.swift in Sources */,
+				9F79EFD52347629800748BE4 /* RNHorizontalBarChartManagerBridge.m in Sources */,
+				9F79EFC12347629800748BE4 /* RNPieChartManager.swift in Sources */,
+				9F79EFCE2347629800748BE4 /* RNBarChartViewBase.swift in Sources */,
+				9F79EFBB2347629800748BE4 /* RNBubbleChartManagerBridge.m in Sources */,
+				9F79EFD22347629800748BE4 /* RNBarChartManagerBridge.m in Sources */,
+				9F79EFB02347629800748BE4 /* RNBarLineChartViewBase.swift in Sources */,
+				9F79EFAA2347629800748BE4 /* RNCombinedChartView.swift in Sources */,
+				9F79EFC82347629800748BE4 /* RNLineChartManagerBridge.m in Sources */,
+				9F79EFC32347629800748BE4 /* RNScatterChartView.swift in Sources */,
+				9F79EFCA2347629800748BE4 /* CandleDataExtract.swift in Sources */,
+				9F79EFC62347629800748BE4 /* RNLineChartView.swift in Sources */,
+				9F79EFAF2347629800748BE4 /* BalloonMarker.swift in Sources */,
+				9F79EFBC2347629800748BE4 /* CustomChartDateFormatter.swift in Sources */,
+				9F79EFDA2347629800748BE4 /* RNChartViewBase.swift in Sources */,
+				9F79EFD12347629800748BE4 /* RNBarChartManager.swift in Sources */,
+				9F79EFC52347629800748BE4 /* ScatterDataExtract.swift in Sources */,
+				9F79EFD02347629800748BE4 /* RNHorizontalBarChartManager.swift in Sources */,
+				9F79EFB62347629800748BE4 /* HighlightUtils.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* Cane_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* E-CANE */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* E-CANE-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = Cane_App;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36B1978AC98CD04C4FD65A55 /* Pods-E-CANETests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P4SHR739R7;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Cane_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-CANE.app/E-CANE";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1A5CDB59B74CA164723829A /* Pods-E-CANETests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = P4SHR739R7;
+				INFOPLIST_FILE = Cane_AppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-CANE.app/E-CANE";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09749917EBE886FD2C614850 /* Pods-E-CANE.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "E-CANE.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = P4SHR739R7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BVLinearGradient\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFirebase\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNI18n\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"$(PODS_ROOT)/../node_modules/react-native-firebase/ios/RNFirebase",
+				);
+				INFOPLIST_FILE = Cane_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.skyras.kissanmitra;
+				PRODUCT_NAME = "E-CANE";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "E-CANE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8DF3E5B84A8C7F49BF7D0EE /* Pods-E-CANE.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "E-CANE.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4SHR739R7;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BVLinearGradient\"",
+					"\"${PODS_ROOT}/Headers/Public/DoubleConversion\"",
+					"\"${PODS_ROOT}/Headers/Public/Firebase\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseAnalyticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCore\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnostics\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseCoreDiagnosticsInterop\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseInstanceID\"",
+					"\"${PODS_ROOT}/Headers/Public/FirebaseMessaging\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleDataTransportCCTSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/GoogleUtilities\"",
+					"\"${PODS_ROOT}/Headers/Public/Protobuf\"",
+					"\"${PODS_ROOT}/Headers/Public/RNCAsyncStorage\"",
+					"\"${PODS_ROOT}/Headers/Public/RNDeviceInfo\"",
+					"\"${PODS_ROOT}/Headers/Public/RNFirebase\"",
+					"\"${PODS_ROOT}/Headers/Public/RNGestureHandler\"",
+					"\"${PODS_ROOT}/Headers/Public/RNI18n\"",
+					"\"${PODS_ROOT}/Headers/Public/React-Core\"",
+					"\"${PODS_ROOT}/Headers/Public/React-DevSupport\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTActionSheet\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTAnimation\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTBlob\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTImage\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTLinking\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTNetwork\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTSettings\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTText\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTVibration\"",
+					"\"${PODS_ROOT}/Headers/Public/React-RCTWebSocket\"",
+					"\"${PODS_ROOT}/Headers/Public/React-cxxreact\"",
+					"\"${PODS_ROOT}/Headers/Public/React-fishhook\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsi\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsiexecutor\"",
+					"\"${PODS_ROOT}/Headers/Public/React-jsinspector\"",
+					"\"${PODS_ROOT}/Headers/Public/glog\"",
+					"\"${PODS_ROOT}/Headers/Public/nanopb\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-camera\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-geolocation\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-image-picker\"",
+					"\"${PODS_ROOT}/Headers/Public/react-native-netinfo\"",
+					"\"${PODS_ROOT}/Headers/Public/yoga\"",
+					"$(inherited)",
+					"${PODS_ROOT}/Firebase/CoreOnly/Sources",
+					"$(PODS_ROOT)/../node_modules/react-native-firebase/ios/RNFirebase",
+				);
+				INFOPLIST_FILE = Cane_App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = in.skyras.kissanmitra;
+				PRODUCT_NAME = "E-CANE";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "E-CANE-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24709C5731040CB179D6B63B /* Pods-E-CANE-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cane_App-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cane_App-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B878864E2441A1142D57E00 /* Pods-E-CANE-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cane_App-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cane_App-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43A88A0D8FEF22C5844EBC61 /* Pods-E-CANE-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cane_App-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cane_App-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-CANE-tvOS.app/E-CANE-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE81BCC35E218C187776594B /* Pods-E-CANE-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Cane_App-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.Cane_App-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-CANE-tvOS.app/E-CANE-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "E-CANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "E-CANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "E-CANE-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "E-CANE-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "E-CANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}
